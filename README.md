@@ -32,3 +32,14 @@ La firma digital deja de coincidir al ser verificada por el servidor, ya que el 
 
 #### 3. GET /admin → 403 (Rol estudiante)
 ![Admin 403](capturas/3_admin_403.png)
+
+## Pruebas de los Endpoints
+
+**1. Login Exitoso (Código 200)**
+![Login Exitoso](capturas/1_login_200.png)
+
+**2. Acceso a Ruta Privada (Código 200)**
+![Acceso Privado](capturas/2_privado_200.png)
+
+**3. Acceso Denegado a Ruta Admin (Código 403)**
+![Acceso Denegado](capturas/3_admin_403.png)
